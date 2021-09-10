@@ -1,0 +1,72 @@
+/*font*/ 
+@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Dancing+Script:wght@600&display=swap');
+
+/*components*/
+@import url('components/btn.css');
+@import url('components/avatar.css');
+@import	url('components/banner.css');
+@import url('components/container.css');
+
+/* General style rules for front and colours */
+
+h1,h3{
+	font-family: 'Besley', serif;
+}
+
+h2,p{
+	font-family: 'Dancing Script', cursive;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	padding: 20px;
+}
+.card img {
+  width: 150px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.card {
+  display: flex;
+	flex-wrap: wrap;
+}
+.card{
+  flex-basis: 250px;
+	flex-grow: 1;
+	margin: 10px;
+}
+.card {
+	border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}

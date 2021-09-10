@@ -1,0 +1,13 @@
+.container {
+	width: 800px;
+	margin: 0 auto; 
+	align-items: center;
+	border-radius: 4px;
+}
+
+.box{
+	width: 30%;
+	background-color: #C68B59;
+	border-radius: 4px;
+	text-align: center;
+}
